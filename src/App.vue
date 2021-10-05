@@ -1,31 +1,21 @@
 <template>
-  <div class="header-wrapper">
-    <h1 class="logo">Hello {{ name }}</h1>
-    <button @click="showAlert">눌러봐</button>
-  </div>
+	<div class="alert alert-primary">
+		<h1 class="text-center">
+			<i class="fa fa-bars"></i>
+			Hello World
+			</h1>
+	</div>
 </template>
 
 <script>
+// export default 는 한개만 보내는거 module.exports = () => {}
+// export 는 보내는거 module.exports = { ?, ? }
+
 export default {
-  name: 'App',
-  data() {
-    return {
-      name: 'wonbin'
-    }
-  },
-  methods: {
-    showAlert(e) {
-      alert('Hello ' + this.name)
-    }
-  }
+
 }
 </script>
 
-<style lang="scss">
-.header-wrapper {
-  text-align: center;
-  h1.logo {
-    color: red;
-  }
-}
+<style>
+
 </style>
