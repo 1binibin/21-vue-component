@@ -19,7 +19,7 @@
 */
 
 import axios from 'axios'
-import ImgCp from './components/imgCp.vue'
+import ImgCp from './components/ImgCp.vue'
 import ThumbCp from './components/ThumbCp.vue'
 
 export default {

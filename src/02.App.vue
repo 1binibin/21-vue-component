@@ -8,7 +8,7 @@
 // export default 는 한개만 보내는거 module.exports = () => {}
 // export 는 보내는거 module.exports = { ?, ? }
 import axios from 'axios'
-import ImgCp from './components/imgCp.vue'
+import ImgCp from './components/ImgCp.vue'
 
 
 export default {
