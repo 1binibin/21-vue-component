@@ -1,6 +1,6 @@
 <template>
 	<div class="img-wrapper">
-		<img :src="src" alt="아이스크림" class="w-100">
+		<img :src="src" :alt="title" class="w-100">
 		<div class="title-wrap">{{ title }}</div>
 	</div>
 </template>
